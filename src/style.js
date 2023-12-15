@@ -1,11 +1,12 @@
-const signUpStyle = {textDecoration: 'none'};
-const fromHandler = {backgroundColor: "white",
-maxWidth: "30px",
-padding: "20px",
-width: "100px",
-boardeRadius: "10px",
-}
+const signUpStyle = { textDecoration: 'none' };
+const formHandler = {
+    backgroundColor: "white",
+    maxWidth: "300px",
+    padding: "20px",
+    borderRadius: "10px",
+};
+
 export const style = {
-    signUpStyle : signUpStyle,
-    fromHandler : fromHandler,
-}
+    signUpStyle: signUpStyle,
+    formHandler: formHandler,
+};
